@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Mycle">
+      <UniqueIdentifier>{3F6CB40D-AB80-DCBE-7402-801EE0D5D8EF}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\Mycle.h" />
+    <ClInclude Include="src\Mycle\Application.h">
+      <Filter>Mycle</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Mycle\Array.h">
+      <Filter>Mycle</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Mycle\ContextManager.h">
+      <Filter>Mycle</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Mycle\Entry.h">
+      <Filter>Mycle</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Mycle\Event.h">
+      <Filter>Mycle</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Mycle\ExceptionManager.h">
+      <Filter>Mycle</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Mycle\IndexBufffer.h">
+      <Filter>Mycle</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Mycle\Mathf.h">
+      <Filter>Mycle</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Mycle\Random.h">
+      <Filter>Mycle</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Mycle\Region.h">
+      <Filter>Mycle</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Mycle\Shader.h">
+      <Filter>Mycle</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Mycle\Utils.h">
+      <Filter>Mycle</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Mycle\VBLayout.h">
+      <Filter>Mycle</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Mycle\Vector.h">
+      <Filter>Mycle</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Mycle\VertexArray.h">
+      <Filter>Mycle</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Mycle\VertexBuffer.h">
+      <Filter>Mycle</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Mycle\Window.h">
+      <Filter>Mycle</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Mycle\Renderer.h" />
+    <ClInclude Include="src\Mycle\Memory.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Mycle\Application.cpp">
+      <Filter>Mycle</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Mycle\ContextManager.cpp">
+      <Filter>Mycle</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Mycle\Event.cpp">
+      <Filter>Mycle</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Mycle\ExceptionManager.cpp">
+      <Filter>Mycle</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Mycle\IndexBufffer.cpp">
+      <Filter>Mycle</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Mycle\Mathf.cpp">
+      <Filter>Mycle</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Mycle\Random.cpp">
+      <Filter>Mycle</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Mycle\Region.cpp">
+      <Filter>Mycle</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Mycle\Vector.cpp">
+      <Filter>Mycle</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Mycle\VertexArray.cpp">
+      <Filter>Mycle</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Mycle\VertexBuffer.cpp">
+      <Filter>Mycle</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Mycle\Window.cpp">
+      <Filter>Mycle</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Mycle\Renderer.cpp" />
+    <ClCompile Include="src\Mycle\Memory.cpp" />
+  </ItemGroup>
+</Project>
